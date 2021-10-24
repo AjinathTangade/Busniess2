@@ -1,0 +1,32 @@
+body{
+    background-color: rgb(42, 6, 77);
+}
+.navbarit a:hover{
+   background-color: rgb(105, 170, 170);
+}
+.animated{
+    animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+
+@-webkit-keyframes up-down{
+    0%{
+        transform: translateY(10px);
+    }
+    100%{
+        transform: translateY(-10px);
+    }
+}
+
+@keyframes up-down{
+    0%{
+        transform: translateY(10px);
+    }
+    100%{
+        transform: translateY(-10px);
+    }
+}
+
+.imgsection{
+    display: flex;
+    justify-content: center;
+}
